@@ -36,7 +36,7 @@ public class RouteService {
     }
 
     private Route fetchRouteFromGoogleMaps(String fromPincode, String toPincode) {
-        String apiKey = "AIzaSyDz-Mnn6i514ptP4s8YYVEWPVW6ipbjfHI";
+        String apiKey = "My-Api-Key";
         String url = String.format(
                 "https://maps.googleapis.com/maps/api/directions/json?origin=%s&destination=%s&key=%s",
                 fromPincode, toPincode, apiKey
