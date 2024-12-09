@@ -1,7 +1,7 @@
 Pincode Distance 
 
 
-In this project, I integrate Google Maps API to calculate the distance between two locations using pincode information.
+In this project, I integrate Google Maps API to calculate the distance between two locations using pincode information , I coundn't mention the api key in this git because of safety issues.
 The primary functionality is provided by the getRoute REST API, which fetches the route details between an origin and destination using the Google Maps Directions API.
 The getRoute method fetches the route details between the origin and destination addresses by calling the Google Maps Directions API.
 The API returns a JSON response containing various route options, and the application extracts the first available route.
